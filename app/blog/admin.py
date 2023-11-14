@@ -23,7 +23,3 @@ class PostAdmin(admin.ModelAdmin):
     prepopulated_fields = {
         "slug": ("title", "category")
     }
-
-
-# admin.site.register(Category, CategoryAdmin)
-# admin.site.register(Post, PostAdmin)
